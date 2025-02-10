@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <input type="checkbox" name="" id="checkbox" class="hidden" />
+      <div class="container w-[90%] m-auto p-5">
+        <div class="header__full flex justify-between items-center">
+          <div class="imglorem flex items-center gap-3">
+            <img
+              class="brek flex p-[10px] rounded-[10px]"
+              src="/img/Logo (6).svg"
+              alt=""
+            />
+            <div class="paragrp">
+              <img src="/img/Group (6).png" alt="" />
+            </div>
+          </div>
+          <div class="header__boxes flex gap-4">
+            <p>welcome@labi.agency</p>
+            <div class="hedr__loyner">
+              <p>
+                +7 921 366 04 32 <i class="fa-brands fa-whatsapp ml-[10px]"></i>
+              </p>
+            </div>
+          </div>
+          <div class="button__hrder">
+            <button>Заказать звонок</button>
+          </div>
+          <div class="images">
+            <label class="burger" for="checkbox">
+              <input type="checkbox1" id="burger" />
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="mobile fixed top-0 -left-[-100%] h-[100vh] w-[100%]">
+        <label for="checkbox"
+          ><i
+            class="fa-solid fa-x absolute right-[+45px] top-[50px] text-[30px] cursor-pointer"
+          ></i
+        ></label>
+        <div class="radio-input flex justify-center items-center mt-[200px]">
+          <label class="label">
+            <input
+              type="radio"
+              id="value-1"
+              checked=""
+              name="value-radio"
+              value="value-1"
+            />
+            <p class="text">Designer</p>
+          </label>
+          <label class="label">
+            <input
+              type="radio"
+              id="value-2"
+              name="value-radio"
+              value="value-2"
+            />
+            <p class="text">Student</p>
+          </label>
+          <label class="label">
+            <input
+              type="radio"
+              id="value-3"
+              name="value-radio"
+              value="value-3"
+            />
+            <p class="text">Teacher</p>
+          </label>
+          <label class="label">
+            <input
+              type="radio"
+              id="value-3"
+              name="value-radio"
+              value="value-3"
+            />
+            <p class="text">developer</p>
+          </label>
+        </div>
+      </div>
+    </header>
+    <div class="hero">
+      <div class="container w-[80%] m-auto mt-[50px]">
+        <div class="boxes__herom flex">
+          <div class="boxes__hero">
+            <div class="hero__text">
+              <h2 class="font-bold text-[30px] leading-[40px] mb-[20px]">
+                БЕЙСБОЛКИ
+              </h2>
+            </div>
+            <div class="img__hero max-w-[700px] mb-[20px]">
+              <img src="/img/Cover img.png" alt="" />
+            </div>
+            <div class="perolpper w-[720px] h-[161px]">
+              <p>
+                Бейсболки — незаменимый атрибут стиля и айдентики во многих
+                компаниях. А еще — постоянная фоновая реклама и возможность
+                выделиться среди конкурентов. Их можно использовать как часть
+                корпоративного стиля или униформы на промо-акциях и выставочных
+                мероприятиях. Мы можем нанести на ткань логотип и оформить
+                футболки в фирменном стиле. Посоветуем лучший способ нанесения
+                логотипа и поможем с дизайном. Для больших тиражей всегда
+                предоставляем скидки. Выполняем заказы точно в срок и доставляем
+                по РФ и ближнему зарубежью.
+              </p>
+            </div>
+            <hr class="mt-[40px]" />
+          </div>
+          <div class="container1">
+            <div class="heading">Оставьте заявку</div>
+            <div class="div">
+              <p>Наш менеджер свяжется с вами в течение 30 минут</p>
+            </div>
+            <form class="form" action="">
+              <div class="input-field">
+                <input
+                  required=""
+                  autocomplete="off"
+                  type="text"
+                  name="text"
+                  id="username"
+                />
+                <label for="username">Ваше имя</label>
+              </div>
+              <div class="input-field">
+                <input
+                  required=""
+                  autocomplete="off"
+                  type="email"
+                  name="email"
+                  id="email"
+                />
+                <label for="email">Адрес почты</label>
+              </div>
+              <div class="input-field">
+                <input
+                  required=""
+                  autocomplete="off"
+                  type="password"
+                  name="text"
+                  id="password"
+                />
+                <label for="username">Номер телефона</label>
+              </div>
+
+              <div class="btn-container">
+                <button class="btn mb-3">Оставить заявку</button>
+                <div class="acc-text">
+                  <span style="color: grey; cursor: pointer"
+                    >Оставляя заявку, вы принимаете условия пользовательского
+                    соглашения</span
+                  >
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="showcas">
+      <div class="container w-[80%] m-auto">
+        <div class="b">
+          <h2>Как мы работаем</h2>
+        </div>
+        <div class="show__cards">
+          <div class="show__boxes">
+            <div class="show__olo">
+              <img src="/img/Message 2.png" alt="" />
+            </div>
+            <p>
+              Вы отправляете заявку или <br />
+              звоните нам в офис
+            </p>
+          </div>
+          <div class="show__boxes">
+            <div class="show__olo">
+              <img src="/img/calendar2-svgrepo-com 1.png" alt="" />
+            </div>
+            <p>
+              Вы отправляете заявку или <br />
+              звоните нам в офис
+            </p>
+          </div>
+          <div class="show__boxes">
+            <div class="show__olo">
+              <img src="/img/payment-svgrepo-com 1.png" alt="" />
+            </div>
+            <p>
+              Вы отправляете заявку или <br />
+              звоните нам в офис
+            </p>
+          </div>
+          <div class="show__boxes">
+            <div class="show__olo">
+              <img src="/img/draw-svgrepo-com 1.png" alt="" />
+            </div>
+            <p>
+              Вы отправляете заявку или <br />
+              звоните нам в офис
+            </p>
+          </div>
+          <div class="show__boxes">
+            <div class="show__olo">
+              <img src="/img/Layer 2.png" alt="" />
+            </div>
+            <p>
+              Вы отправляете заявку или <br />
+              звоните нам в офис
+            </p>
+          </div>
+          <div class="show__boxes">
+            <div class="show__olo">
+              <img src="/img/delivery-13-svgrepo-com 1.png" alt="" />
+            </div>
+            <p>
+              Вы отправляете заявку или <br />
+              звоните нам в офис
+            </p>
+          </div>
+        </div>
+        <hr / class="max-w-[718px] mt-[20px]">
+      </div>
+    </div>
+    <div class="very">
+      <div class="container w-[80%] m-auto">
+        <h2 class="lopp0e">С этим товаром заказывают</h2>
+        <div class="very__box">
+          <div class="imglar flex mt-[40px]">
+            <img src="/img/InnerText Card item.png" alt="" />
+            <img src="/img/InnerText Card item (1).png" alt="" />
+            <img src="/img/InnerText Card item (2).png" alt="" />
+            <img src="/img/InnerText Card item (3).png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="colspan">
+      <div class="container">
+        <div class="grid-container">
+          <div class="naloa">
+            <div class="nabar1">
+              <img src="/img/InnerText Card item (12).png" alt="Image 1" />
+            </div>
+            <div class="nabar2">
+              <img src="/img/InnerText Card item (7).png" alt="Image 4" />
+            </div>
+            <div class="nabar3">
+              <img src="/img/InnerText Card item (5).png" alt="Image 2" />
+            </div>
+            <div class="nabar4">
+              <img src="/img/InnerText Card item (8).png" alt="Image 5" />
+            </div>
+            <div class="nabar5">
+              <img src="/img/InnerText Card item (9).png" alt="Image 6" />
+            </div>
+            <div class="nabar6">
+              <img src="/img/InnerText Card item (6).png" alt="Image 3" />
+            </div>
+            <div class="nabar7">
+              <img src="/img/InnerText Card item (10).png" alt="Image 7" / >
+            </div>
+            <div class="nabar8">
+              <img src="/img/InnerText Card item (11).png" alt="Image 8" / >
+            </div>
+            <div class="nabar9">
+              <img src="/img/InnerText Card item (11).png" alt="Image 8" / >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="lorem">
+      <div class="container w-[80%] m-auto mt-[100px]">
+        <div class="lorem__boxes flex">
+          <div class="lorem__tre">
+            <img
+              class="lorm__img"
+              src="/img/Contacts and Form Img.png"
+              alt=""
+            />
+          </div>
+          <div class="lorem__color ml-[50px]">
+            <div class="lorem__prep">
+              <h3 class="lorm__l">Возникла идея? Свяжитесь с нами!</h3>
+            </div>
+            <div class="call">
+              <p class="text-[grey]">
+                <i class="fa-solid fa-phone mr-[20px]"></i>+7 921 366 04 32
+              </p>
+              <p class="text-[grey]">
+                <i class="fa-solid fa-comment-sms mr-[20px]"></i
+                >welcome@labi.agency
+              </p>
+              <p class="text-[grey]">
+                <i class="fa-solid fa-location-dot mr-[20px]"></i>г.
+                Санкт-Петербург, Караваевская улица, 33к5
+              </p>
+            </div>
+            <div class="lorem__form">
+              <span class="text-[grey]">или</span>
+              <h2 class="lorm__l">Оставьте заявку</h2>
+              <p class="mb-[30px]">
+                Наш менеджер свяжется с вами в течение 30 минут
+              </p>
+            </div>
+            <div class="lorem__input">
+              <div class="lorm flex flex-col">
+                <input
+                  class="inptler mb-[20px]"
+                  type="text"
+                  placeholder="Ваше имя"
+                />
+                <input
+                  class="inptler mb-[20px]"
+                  type="text"
+                  placeholder="Адрес почты"
+                />
+                <input
+                  class="inptler mb-[20px]"
+                  type="text"
+                  placeholder="Номер телефона"
+                />
+              </div>
+            </div>
+            <div class="lorem__button flex">
+              <button>Оставить заявку</button>
+              <div class="lorem__end ml-[20px]">
+                <p>
+                  Оставляя заявку, вы принимаете условия <br />
+                  пользовательского соглашения
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="mt-[100px] bg-[whitesmoke]">
+      <div class="container w-[80%] m-auto mt-[100px]">
+        <div class="footer__boxes">
+          <nav class="navbar__footer">
+            <ul class="list">
+              <li class="fotr__lo">
+                <img src="/img/Logo (1).png" alt="" />
+              </li>
+              <li class="mt-[10px] mb-[20px]">
+                <a href="#">Пн-Пт с 11:00 до 19:00</a>
+              </li>
+              <ul>
+                <li>
+                  <a href="#">
+                    <i class="fa-solid fa-phone mr-[20px]"></i>+7 921 366 04
+                    32</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-solid fa-comment-sms mr-[20px]"></i
+                    >welcome@labi.agency</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-solid fa-location-dot mr-[20px]"></i>г.
+                    Санкт-Петербург,
+                    <span class="ml-[30px]">Караваевская улица, 33к5</span></a
+                  >
+                </li>
+              </ul>
+            </ul>
+            <ul class="list">
+              <li>
+                <p>Типография</p>
+              </li>
+              <li>
+                <a href="#">Наклейки</a>
+              </li>
+              <li>
+                <a href="#">Открытки и сертификаты</a>
+              </li>
+              <li>
+                <a href="#">Плакаты и афиши</a>
+              </li>
+              <li>
+                <a href="#">Дипломы и грамоты</a>
+              </li>
+              <li>
+                <a href="#">Календари</a>
+              </li>
+              <li>
+                <a href="#">Каталоги и буклеты</a>
+              </li>
+              <li>
+                <a href="#">Листовки</a>
+              </li>
+              <li>
+                <a href="#">Визитки</a>
+              </li>
+            </ul>
+            <ul class="list">
+              <li>
+                <p>Выставки</p>
+              </li>
+              <li>
+                <a href="#">Указатели и буклетницы</a>
+              </li>
+              <li>
+                <a href="#">Промостойки и торговые островки</a>
+              </li>
+              <li>
+                <a href="#">Оформление мероприятий и выставок</a>
+              </li>
+              <li>
+                <a href="#">Выставочные стенды</a>
+              </li>
+              <li>
+                <a href="#">Аренда выставочного оборудования</a>
+              </li>
+              <li>
+                <a href="#">Стенды press wall, brand wall</a>
+              </li>
+              <li>
+                <a href="#">Мобильные стены (roll up и pop up)</a>
+              </li>
+            </ul>
+            <ul class="list">
+              <li>
+                <p>Дизайн и Диджитал</p>
+              </li>
+              <li>
+                <a href="#">Администрирование и поддержка сайтов</a>
+              </li>
+              <li>
+                <a href="#">СЕО-оптимизация</a>
+              </li>
+              <li>
+                <a href="#">Доработка сайта</a>
+              </li>
+              <li>
+                <a href="#">Интернет-магазины</a>
+              </li>
+              <li>
+                <a href="#">Контекстная реклама</a>
+              </li>
+              <li>
+                <a href="#">Баннеры (вэб)</a>
+              </li>
+              <li>
+                <a href="#">Создание сайтов</a>
+              </li>
+              <li>
+                <a href="#">Дизайн полиграфии</a>
+              </li>
+              <li>
+                <a href="#">Разработка логотипа и фирменного стиля</a>
+              </li>
+            </ul>
+            <ul class="list">
+              <li class="mb-[10px]">
+                <p>Главная</p>
+              </li>
+              <li class="mb-[10px]">
+                <p>Услуги</p>
+              </li>
+              <li class="mb-[10px]">
+                <p>Тех. требования</p>
+              </li>
+              <li class="mb-[10px]">
+                <p>О нас</p>
+              </li>
+              <li class="mb-[10px]">
+                <p>Вакансии</p>
+              </li>
+              <li class="mb-[10px]">
+                <p>Контакты</p>
+              </li>
+            </ul>
+            <ul class="list">
+              <li>
+                <p>Производство рекламы</p>
+              </li>
+              <li>
+                <a href="#">Брендирование автотранспорта</a>
+              </li>
+              <li>
+                <a href="#">Оформление офисов и торговых точек</a>
+              </li>
+              <li>
+                <a href="#">Баннеры</a>
+              </li>
+              <li>
+                <a href="#">Брендирование контейнеров</a>
+              </li>
+              <li>
+                <a href="#">Информационные стенды</a>
+              </li>
+              <li>
+                <a href="#">Таблички</a>
+              </li>
+              <li>
+                <a href="#">Оформление витрин</a>
+              </li>
+              <li>
+                <a href="#">Объемные буквы и вывески</a>
+              </li>
+            </ul>
+            <ul class="list">
+              <li>
+                <p>Сувенирная продукция</p>
+              </li>
+              <li>
+                <a href="#">Ланьярды и бирки</a>
+              </li>
+              <li>
+                <a href="#">Корпоративные подарки</a>
+              </li>
+              <li>
+                <a href="#">Награды</a>
+              </li>
+              <li>
+                <a href="#">Текстиль (футболки и кепки)</a>
+              </li>
+              <li>
+                <a href="#">Пакеты с логотипом</a>
+              </li>
+              <li>
+                <a href="#">Подарочные наборы</a>
+              </li>
+              <li>
+                <a href="#">Ежедневники и блокноты</a>
+              </li>
+              <li>
+                <a href="#">Кружки</a>
+              </li>
+              <li>
+                <a href="#">Ручки</a>
+              </li>
+            </ul>
+            <ul class="list">
+              <li>
+                <p>BTL</p>
+              </li>
+              <li>
+                <a href="#">Дорхенгеры (дверные крючки)</a>
+              </li>
+              <li>
+                <a href="#">Корпоративные мероприятия</a>
+              </li>
+              <li>
+                <a href="#">Церемонии открытия магазинов и офисов</a>
+              </li>
+              <li>
+                <a href="#">Безадресная рассылка по почтовым ящикам</a>
+              </li>
+              <li>
+                <a href="#">Тайный покупатель</a>
+              </li>
+              <li>
+                <a href="#">Ростовые куклы</a>
+              </li>
+              <li>
+                <a href="#">Дегустации</a>
+              </li>
+              <li>
+                <a href="#">Промо-акции (СПБ, Москва + регионы)</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
